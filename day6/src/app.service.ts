@@ -3,6 +3,7 @@ import { Cat } from './app.interface';
 
 @Injectable()
 export class AppService {
+    constructor() {}
     private  readonly cats: Cat[] = []
 
     create(cat: Cat) {
